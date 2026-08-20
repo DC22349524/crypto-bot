@@ -1,0 +1,43 @@
+{
+  "telegram": {
+    "bot_token": "123456789:AA...",
+    "allowed_user_ids": [123456789]
+  },
+  "mode": "paper",
+  "live_confirmed": false,
+  "markets": "spot",
+  "binance": {
+    "api_key": "",
+    "secret": "",
+    "testnet_api_key": "",
+    "testnet_secret": ""
+  },
+  "futures": {
+    "default_leverage": 10,
+    "max_leverage": 25,
+    "margin_mode": "isolated",
+    "min_notional": 5,
+    "hedge_mode": false,
+    "testnet_api_key": "",
+    "testnet_secret": ""
+  },
+  "ccxt": {
+    "taker_fee": 0.001
+  },
+  "claude": {
+    "claude_exe": "C:\\Users\\<USER>\\.local\\bin\\claude.exe",
+    "project_dir": "C:\\Users\\<USER>\\crypto-bot",
+    "venv_scripts": "C:\\Users\\<USER>\\freqtrade\\.venv\\Scripts",
+    "timeout_seconds": 240,
+    "system_prompt_file": "BOT_SYSTEM_PROMPT.md"
+  },
+  "paper": {
+    "initial_quote_balance": 1000.0,
+    "quote_currency": "USDT"
+  },
+  "poller": {
+    "enabled": true,
+    "interval_seconds": 30,
+    "auto_ladder": true
+  }
+}

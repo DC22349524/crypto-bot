@@ -1,0 +1,12 @@
+# 密钥与运行时状态 —— 永不入库
+config.json
+config.*.json
+config.*.bak
+!config.example.json
+paper_ledger.json
+plans.json
+markets_cache*.json
+sessions.json
+logs/
+__pycache__/
+*.pyc
